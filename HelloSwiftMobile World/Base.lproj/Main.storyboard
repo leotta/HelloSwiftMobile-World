@@ -35,7 +35,52 @@
                     <view key="view" contentMode="scaleToFill" id="H5D-wh-eK9">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X25-py-WL7">
+                                <rect key="frame" x="0.0" y="90" width="600" height="123"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NbC-tA-SCf">
+                                        <rect key="frame" x="20" y="46" width="230" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rJl-Ic-Yfg">
+                                        <rect key="frame" x="285" y="73" width="30" height="30"/>
+                                        <state key="normal" title="&lt;--"/>
+                                    </button>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lid-4o-rrK">
+                                        <rect key="frame" x="350" y="46" width="230" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zDB-bd-SrY">
+                                        <rect key="frame" x="285" y="20" width="30" height="30"/>
+                                        <state key="normal" title="--&gt;"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.95213158268802744" green="1" blue="0.58334090193081445" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="NbC-tA-SCf" firstAttribute="centerY" secondItem="lid-4o-rrK" secondAttribute="centerY" id="0rf-Cq-I9x"/>
+                                    <constraint firstAttribute="height" constant="123" id="8TE-pc-IC1"/>
+                                    <constraint firstItem="rJl-Ic-Yfg" firstAttribute="top" secondItem="zDB-bd-SrY" secondAttribute="bottom" constant="23" id="Fb7-Jb-M3P"/>
+                                    <constraint firstItem="lid-4o-rrK" firstAttribute="leading" secondItem="NbC-tA-SCf" secondAttribute="trailing" constant="100" id="Kkh-dh-2v2"/>
+                                    <constraint firstItem="NbC-tA-SCf" firstAttribute="centerY" secondItem="X25-py-WL7" secondAttribute="centerY" id="WvL-dZ-kpI"/>
+                                    <constraint firstItem="zDB-bd-SrY" firstAttribute="top" secondItem="X25-py-WL7" secondAttribute="top" constant="20" id="dEu-70-PWA"/>
+                                    <constraint firstItem="NbC-tA-SCf" firstAttribute="height" secondItem="lid-4o-rrK" secondAttribute="height" id="i3C-l3-9LO"/>
+                                    <constraint firstAttribute="trailing" secondItem="lid-4o-rrK" secondAttribute="trailing" constant="20" id="kX9-FC-ti2"/>
+                                    <constraint firstItem="rJl-Ic-Yfg" firstAttribute="centerX" secondItem="zDB-bd-SrY" secondAttribute="centerX" id="o3P-Z4-yCQ"/>
+                                    <constraint firstItem="zDB-bd-SrY" firstAttribute="centerX" secondItem="X25-py-WL7" secondAttribute="centerX" id="rUL-Al-Hui"/>
+                                    <constraint firstItem="NbC-tA-SCf" firstAttribute="width" secondItem="lid-4o-rrK" secondAttribute="width" id="wqb-Rm-LvE"/>
+                                    <constraint firstItem="NbC-tA-SCf" firstAttribute="leading" secondItem="X25-py-WL7" secondAttribute="leading" constant="20" id="yZ0-FP-CAt"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.72899082781165125" green="1" blue="0.62274009460098578" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="X25-py-WL7" secondAttribute="trailing" constant="-20" id="GLm-jL-x6p"/>
+                            <constraint firstItem="X25-py-WL7" firstAttribute="top" secondItem="zB9-H8-uOx" secondAttribute="bottom" constant="70" id="Vtc-iu-Fdr"/>
+                            <constraint firstItem="X25-py-WL7" firstAttribute="leading" secondItem="H5D-wh-eK9" secondAttribute="leadingMargin" constant="-20" id="dTx-qN-Eic"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="converter" id="FeU-KX-LPs"/>
                 </viewController>
