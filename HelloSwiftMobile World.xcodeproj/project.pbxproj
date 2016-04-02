@@ -12,6 +12,7 @@
 		C39F0D331CAFAC2300F5F0CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39F0D311CAFAC2300F5F0CF /* Main.storyboard */; };
 		C39F0D351CAFAC2300F5F0CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39F0D341CAFAC2300F5F0CF /* Assets.xcassets */; };
 		C39F0D381CAFAC2300F5F0CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39F0D361CAFAC2300F5F0CF /* LaunchScreen.storyboard */; };
+		C39F0D401CB0009300F5F0CF /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39F0D3F1CB0009300F5F0CF /* ConverterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C39F0D341CAFAC2300F5F0CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C39F0D371CAFAC2300F5F0CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C39F0D391CAFAC2300F5F0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39F0D3F1CB0009300F5F0CF /* ConverterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				C39F0D2D1CAFAC2300F5F0CF /* AppDelegate.swift */,
 				C39F0D2F1CAFAC2300F5F0CF /* ViewController.swift */,
 				C39F0D311CAFAC2300F5F0CF /* Main.storyboard */,
+				C39F0D3F1CB0009300F5F0CF /* ConverterViewController.swift */,
 				C39F0D341CAFAC2300F5F0CF /* Assets.xcassets */,
 				C39F0D361CAFAC2300F5F0CF /* LaunchScreen.storyboard */,
 				C39F0D391CAFAC2300F5F0CF /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				C39F0D301CAFAC2300F5F0CF /* ViewController.swift in Sources */,
 				C39F0D2E1CAFAC2300F5F0CF /* AppDelegate.swift in Sources */,
+				C39F0D401CB0009300F5F0CF /* ConverterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
